@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+
+:root{
+    --div-background: #f8f8f8;
+    --bg: #6c7983;
+    --title-color: #2a2e35;
+    --text-color: #12181b;
+    --draw: #12181b;
+}
+button{
+    border:2px solid var(--draw);
+    color: var(--draw);
+    margin-top: 0.7em;
+    padding: 10px 20px;
+
+}
+.title{
+    text-align: center;
+    font-size: 48px;
+    color: var(--title-color);
+}
+.selectors{
+    display: block;
+
+}
+.draw-box{
+    display: flex;
+    background: var(--div-background);
+    width: 500px;
+    height: 500px;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.clear-draw{
+    height: 31.25px;
+    width: 31.25px;
+    background: var(--div-background);
+}
+.draw{
+    height: 31.25px;
+    width: 31.25px;
+    background: var(--draw);
+}
