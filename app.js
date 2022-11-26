@@ -11,11 +11,13 @@ eraseMode.onclick = () => {
 }
 
 
-const drawDiv = document.createElement('div')
 
-for (let index = 0; index <= 16; index++) {
+
+for (let index = 0; index < 256; index++) {
+    var drawDiv = document.createElement('div')
     drawDiv.setAttribute('class', 'clear-draw')
     drawBox.append(drawDiv)
+    console.log(index)
 }
 
 drawDiv.onclick = () =>{

@@ -37,9 +37,11 @@ button{
 }
 .draw-box{
     display: flex;
+    flex-wrap: wrap;
     background: var(--div-background);
     width: 500px;
     height: 500px;
+    
 }
 .box{
     display: flex;
@@ -51,6 +53,7 @@ button{
     height: 31.25px;
     width: 31.25px;
     background: var(--div-background);
+    z-index: 2;
 }
 .draw{
     height: 31.25px;
